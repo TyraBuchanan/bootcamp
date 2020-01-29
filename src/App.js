@@ -32,7 +32,7 @@ class App extends React.Component {
         {this.state.employees.map((employee, index) => {
           return (
           
-            <div className="media col-12 mb-4 directory-entry p-6" key={index}>
+            <div className="media col-5 mb-4 directory-entry p-6" key={index}>
               <img src={employee.image}
                  className="mr-10 directory-image" alt="..." />
               <div className="media-body">
